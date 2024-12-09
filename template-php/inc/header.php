@@ -1,5 +1,5 @@
 <?php
-define("BASE_URL", 'http://localhost/latihan_pkl/Kumpulan_Template/Template-sb-admin-6.0.3/php/');
+define("BASE_URL", 'http://localhost/latihan_pkl/Kumpulan_Template/Template-sb-admin-6.0.3/template-php/');
 
 ?>
 
@@ -13,7 +13,7 @@ define("BASE_URL", 'http://localhost/latihan_pkl/Kumpulan_Template/Template-sb-a
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>Dashboard - SB Admin</title>
-    <link href="<?php echo BASE_URL; ?>/css/styles.css" rel="stylesheet" />
+    <link href="<?php echo BASE_URL; ?>css/styles.css" rel="stylesheet" />
     <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
         crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous">

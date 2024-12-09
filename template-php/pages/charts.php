@@ -1,6 +1,6 @@
 <?php
-include_once('inc/header.php');
-include_once('inc/sidebar.php');
+include_once('../inc/header.php');
+include_once('../inc/sidebar.php');
 
 ?>
 
@@ -51,10 +51,8 @@ include_once('inc/sidebar.php');
             </div>
         </div>
     </main>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
-    <script src="<?php echo BASE_URL; ?>assets/demo/chart-area-demo.js"></script>
-    <script src="<?php echo BASE_URL; ?>assets/demo/chart-bar-demo.js"></script>
-    <script src="<?php echo BASE_URL; ?>assets/demo/chart-pie-demo.js"></script>
-    <?php include_once('inc/footer.php'); ?>
+    <script src="../assets/demo/chart-area-demo.js"></script>
+    <script src="../assets/demo/chart-bar-demo.js"></script>
+    <script src="../assets/demo/chart-pie-demo.js"></script>
+    <?php include_once('../inc/footer.php'); ?>
